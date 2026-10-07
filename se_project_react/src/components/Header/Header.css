@@ -6,23 +6,51 @@
 
 .header__logo {
   margin-right: 24px;
+  width: 89px;
+  height: 40px;
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000;
 }
 
 .header__date-and-location {
   margin: 0;
   margin-left: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #000;
 }
 
 .header__add-clothes-btn {
   margin: 0 20px 0 auto;
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #000;
+  border: none;
+  padding: 0;
 }
 
 .header__user-container {
   display: flex;
   align-items: center;
-  gap: 12px;
 }
 
 .header__username {
   margin: 0;
+  width: 157px;
+  margin-right: 12px;
+  height: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000;
 }
