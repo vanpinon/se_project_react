@@ -15,7 +15,7 @@ The react project uses fundamental principles to create a frontend web applicati
 
 This webpage is deployed to GitHub Pages
 
-- [Deployment Link](https://vanpinon.github.io/se_project_spots/)
+- [Deployment Link](https://vanpinon.github.io/se_project_react/)
 
 # React + Vite
 
