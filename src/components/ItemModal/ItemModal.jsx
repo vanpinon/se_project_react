@@ -1,15 +1,10 @@
 import "./ItemModal.css";
 import CloseIcon from "../../images/close.svg";
 
-function ItemModal({
-  activeModal,
-  card,
-  handleCloseClick,
-  handleOverlayClick,
-}) {
+function ItemModal({ card, handleCloseClick, handleOverlayClick, isOpen }) {
   return (
     <div
-      className={`modal ${activeModal === "preview" ? "modal_opened" : ""}`}
+      className={`modal ${isOpen ? "modal_opened" : ""}`}
       onClick={handleOverlayClick}
     >
       <div className="modal__content modal__content_type_image">
@@ -24,7 +19,7 @@ function ItemModal({
             alt="Close icon"
           />
         </button>
-        <img className="modal__image" src={card.link} alt="" />
+        <img className="modal__image" src={card.link} alt={card.name} />
         <div className="modal__footer">
           <h2 className="modal__caption">{card.name}</h2>
           <p className="modal__weather">Weather: {card.weather}</p>
