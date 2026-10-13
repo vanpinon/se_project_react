@@ -1,5 +1,5 @@
 import "./ItemModal.css";
-import CloseIcon from "../../images/close.svg";
+import WhiteCloseIcon from "../../images/white-close.svg";
 
 function ItemModal({ card, handleCloseClick, handleOverlayClick, isOpen }) {
   return (
@@ -15,7 +15,7 @@ function ItemModal({ card, handleCloseClick, handleOverlayClick, isOpen }) {
         >
           <img
             className="modal__close-icon modal__item_close"
-            src={CloseIcon}
+            src={WhiteCloseIcon}
             alt="Close icon"
           />
         </button>

@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer.jsx";
 import ModalWithForm from "../ModalWithForm/ModalWithForm.jsx";
 import ItemModal from "../ItemModal/ItemModal.jsx";
 import { getWeather, filterWeatherData } from "../../utils/weatherApi.js";
-import { coordinates, apiKey } from "../../utils/clothingItems.js";
+import { coordinates, apiKey } from "../../utils/constants.js";
 import { defaultClothingItems } from "../../utils/clothingItems.js";
 
 function App() {

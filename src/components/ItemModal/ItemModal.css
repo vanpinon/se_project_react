@@ -12,14 +12,13 @@
   width: 20px;
   height: 20px;
   border: none;
-  background: transparent;
 }
 
 .modal__image {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
-  width: 498px;
-  height: 498px;
+  width: 100%;
+  height: auto;
   margin-bottom: 20px;
 }
 
